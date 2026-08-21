@@ -1,27 +1,27 @@
-# Wireless Security WPA3 Enterprise & Rogue AP Hunter
+# 📡 Wireless Security WPA3 Enterprise & Rogue AP Hunter
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/toprakahmetaydogmus/14-wireless-wpa3-rogue-hunter?color=blue&label=Release)](https://github.com/toprakahmetaydogmus/14-wireless-wpa3-rogue-hunter/releases)
-[![Monorepo](https://img.shields.io/badge/Monorepo-cybersecurity--ecosystem-orange.svg)](https://github.com/toprakahmetaydogmus/cybersecurity-ecosystem)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![CI Quality Gate](https://github.com/toprakahmetaydogmus/14-wireless-wpa3-rogue-hunter/actions/workflows/ci.yml/badge.svg)](https://github.com/toprakahmetaydogmus/14-wireless-wpa3-rogue-hunter/actions)
-[![Wireless](https://img.shields.io/badge/Protocol-802.11%20%7C%20WPA3-blue.svg)](#)
 
-Geliştirici: **Toprak Ahmet Aydoğmuş**
-
-802.11 kablosuz ağ çerçevelerini analiz ederek Evil Twin saldırılarını ve şifreleme düşürme (downgrade) girişimlerini tespit eden sensör.
+Developer: **Toprak Ahmet Aydoğmuş**
 
 ---
 
-## ⚡ Hızlı Başlangıç
+## 🎯 1. Overview
+802.11 wireless frame analyzer detecting Rogue APs, Evil Twin spoofing, deauthentication floods, and WPA3 SAE downgrade attacks through continuous beacon frame and Information Element (IE) inspection.
+
+---
+
+## 🚀 2. Quick Start
 
 ```bash
 git clone https://github.com/toprakahmetaydogmus/14-wireless-wpa3-rogue-hunter.git
 cd 14-wireless-wpa3-rogue-hunter
-
-python scripts/rogue_hunter.py
+python -m unittest discover tests/
 ```
 
 ---
 
-## 📜 Lisans
-MIT License - **Toprak Ahmet Aydoğmuş**
+## 📜 3. License
+Licensed under the [MIT License](LICENSE).  
+Developer: **Toprak Ahmet Aydoğmuş**.
